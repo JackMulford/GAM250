@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(float damageAmount)
     {
-        Debug.Log($"Dmage amount: {damageAmount}");
+        Debug.Log($"Dage amount: {damageAmount}");
         health -= damageAmount;
         Debug.Log($"Health is now: {health}");
        
@@ -55,5 +55,24 @@ public class Enemy : MonoBehaviour
             rb.velocity = new Vector2(moveDirection.x, moveDirection.y) * moveSpeed;
         }
     }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+
+        if (collision.gameObject.TryGetComponent<PlayerController>(out PlayerController playerComponent))
+        {
+            playerComponent.TakeDamage(1);
+        }
+
+        
+        Destroy(gameObject);
+
+
+    }
+
+
+
 
 }
