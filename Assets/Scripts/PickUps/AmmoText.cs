@@ -21,6 +21,7 @@ public class AmmoText : MonoBehaviour
 
     public void UpdateAmmoText()
     {
+        
         text.text = $"{weapon.currentClip} | {weapon.currentAmmo}";
     }
 
