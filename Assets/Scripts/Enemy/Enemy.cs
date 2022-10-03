@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] float health, maxHealth = 3f;
 
     [SerializeField] float moveSpeed = 5f;
-    Rigidbody2D rb;
+    public Rigidbody2D rb;
     Transform target;
     Vector2 moveDirection;
 
