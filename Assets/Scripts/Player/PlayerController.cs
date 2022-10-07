@@ -16,6 +16,9 @@ public class PlayerController : MonoBehaviour
     private Vector2 moveDirection;
     private Vector2 mousePosition;
 
+    public GameObject Player;
+    
+
     public static event Action<PlayerController> OnPlayerKilled;
     [SerializeField] float health, maxHealth = 3f;
 
