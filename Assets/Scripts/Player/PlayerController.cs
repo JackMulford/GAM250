@@ -86,6 +86,7 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(gameObject, Time.timeScale = 0f);
             OnPlayerKilled?.Invoke(this);
+
         }
     }
 
