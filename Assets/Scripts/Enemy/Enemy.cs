@@ -67,7 +67,7 @@ public class Enemy : MonoBehaviour
         }
 
         
-        Destroy(playerComponent, );
+        Destroy(gameObject);
 
 
     }

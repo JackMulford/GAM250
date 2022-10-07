@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-   
+
     public Camera sceneCamera;
 
     public float moveSpeed;
@@ -16,13 +16,13 @@ public class PlayerController : MonoBehaviour
     private Vector2 moveDirection;
     private Vector2 mousePosition;
 
-    public GameObject Player;
     
+
 
     public static event Action<PlayerController> OnPlayerKilled;
     [SerializeField] float health, maxHealth = 3f;
 
-    
+
     Transform target;
 
     // Update is called once per frame
@@ -84,9 +84,10 @@ public class PlayerController : MonoBehaviour
 
         if (health <= 0)
         {
-            Destroy(gameObject);
+            Destroy(gameObject, Time.timeScale = 0f);
             OnPlayerKilled?.Invoke(this);
         }
     }
 
+    
 }
