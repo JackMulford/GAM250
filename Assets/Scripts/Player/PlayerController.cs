@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] float moveSpeed = 5f;
 
+
     public Rigidbody2D rb;
     public Weapon weapon;
 
@@ -41,6 +42,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             weapon.Fire();
+           
         }
 
         if (Input.GetKeyDown(KeyCode.R))

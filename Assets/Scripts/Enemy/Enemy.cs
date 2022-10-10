@@ -7,7 +7,6 @@ public class Enemy : MonoBehaviour
 {
     public static event Action<Enemy> OnEnemyKilled;
     [SerializeField] float health, maxHealth = 3f;
-
     [SerializeField] float moveSpeed = 5f;
     public Rigidbody2D rb;
     Transform target;
