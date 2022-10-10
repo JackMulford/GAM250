@@ -16,8 +16,8 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
-  - 
+  - Interactables
+  - Boundaries
   - 
   - 
   - 
@@ -44,4 +44,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Enemy
+    uniqueID: 3346993929
+    locked: 0
+  - name: Player
+    uniqueID: 232993963
+    locked: 0
+  - name: Interactables
+    uniqueID: 526732645
+    locked: 0
+  - name: Boundaries
+    uniqueID: 169057727
     locked: 0

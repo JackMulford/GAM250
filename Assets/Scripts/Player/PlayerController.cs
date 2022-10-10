@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 
     public Camera sceneCamera;
 
-    public float moveSpeed;
+    [SerializeField] float moveSpeed = 5f;
 
     public Rigidbody2D rb;
     public Weapon weapon;
@@ -16,11 +16,8 @@ public class PlayerController : MonoBehaviour
     private Vector2 moveDirection;
     private Vector2 mousePosition;
 
-    
-
-
     public static event Action<PlayerController> OnPlayerKilled;
-    [SerializeField] float health, maxHealth = 3f;
+    [SerializeField] float health, maxHealth = 100f;
 
 
     Transform target;

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 790550074314865940}
   - component: {fileID: 790550074314865941}
   - component: {fileID: 790550074314865962}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AmmoPickUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
+    type: 3}
   m_Color: {r: 0, g: 1, b: 0.93225074, a: 1}
   m_FlipX: 0
   m_FlipY: 0
