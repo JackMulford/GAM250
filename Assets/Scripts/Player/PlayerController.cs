@@ -45,6 +45,11 @@ public class PlayerController : MonoBehaviour
            
         }
 
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            weapon.Fire();
+        }
+
         if (Input.GetKeyDown(KeyCode.R))
         {
             weapon.Reload();
