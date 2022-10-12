@@ -167,4 +167,5 @@ MonoBehaviour:
   health: 10
   maxHealth: 10
   moveSpeed: 5
+  scoreValue: 1
   rb: {fileID: 537274058545078013}

@@ -62,16 +62,16 @@ public class Enemy : MonoBehaviour
 
         if (collision.gameObject.TryGetComponent<PlayerController>(out PlayerController playerComponent))
         {
+            
             playerComponent.TakeDamage(1);
+            
         }
 
-        
-        
+        ScoreScript.scoreValue += 1;
 
 
     }
 
-
-
+   
     
 }
