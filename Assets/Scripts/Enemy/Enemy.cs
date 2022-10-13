@@ -5,9 +5,13 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+
+
     public static event Action<Enemy> OnEnemyKilled;
     [SerializeField] float health, maxHealth = 3f;
     [SerializeField] float moveSpeed = 5f;
+    [SerializeField] AudioClip deathSound;
+    [SerializeField] [Range(0, 1)] float deathSoundVolume = 0.75f;
     public Rigidbody2D rb;
     Transform target;
     Vector2 moveDirection;
@@ -68,7 +72,7 @@ public class Enemy : MonoBehaviour
         }
 
         ScoreScript.scoreValue += 1;
-
+        AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
 
     }
 

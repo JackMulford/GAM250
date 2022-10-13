@@ -6,19 +6,29 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    public Camera sceneCamera;
 
+    // configuration parameters
+    [Header("Player Stats")]
     [SerializeField] float moveSpeed = 5f;
+    [SerializeField] float health, maxHealth = 100f;
 
+    [Header("Player Audio")]
+    [SerializeField] AudioClip shootSound;
+    [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.25f;
+    [SerializeField] AudioClip reloadSound;
+    [SerializeField] [Range(0, 1)] float reloadSoundVolume = 0.25f;
 
+    [Header("Player Parts")]
     public Rigidbody2D rb;
     public Weapon weapon;
+    public Camera sceneCamera;
+
 
     private Vector2 moveDirection;
     private Vector2 mousePosition;
 
     public static event Action<PlayerController> OnPlayerKilled;
-    [SerializeField] float health, maxHealth = 100f;
+    
 
 
     Transform target;
@@ -42,17 +52,21 @@ public class PlayerController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             weapon.Fire();
-           
+            AudioSource.PlayClipAtPoint(shootSound, Camera.main.transform.position, shootSoundVolume);
+
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
             weapon.Fire();
+            AudioSource.PlayClipAtPoint(shootSound, Camera.main.transform.position, shootSoundVolume);
         }
 
         if (Input.GetKeyDown(KeyCode.R))
         {
             weapon.Reload();
+            AudioSource.PlayClipAtPoint(reloadSound, Camera.main.transform.position, reloadSoundVolume);
+
         }
 
 
