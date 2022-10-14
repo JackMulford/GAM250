@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 537274058545078002, guid: 751485e6a645c3c489053af7d7804cbe,
         type: 3}
       propertyPath: m_Name
-      value: Mogh Variant (2)
+      value: Mogh
       objectReference: {fileID: 0}
     - target: {fileID: 537274058545078003, guid: 751485e6a645c3c489053af7d7804cbe,
         type: 3}
@@ -25,17 +25,17 @@ PrefabInstance:
     - target: {fileID: 537274058545078008, guid: 751485e6a645c3c489053af7d7804cbe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.823324
+      value: -0.037492752
       objectReference: {fileID: 0}
     - target: {fileID: 537274058545078008, guid: 751485e6a645c3c489053af7d7804cbe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.337858
+      value: -4.906957
       objectReference: {fileID: 0}
     - target: {fileID: 537274058545078008, guid: 751485e6a645c3c489053af7d7804cbe,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.2
+      value: -5.312937
       objectReference: {fileID: 0}
     - target: {fileID: 537274058545078008, guid: 751485e6a645c3c489053af7d7804cbe,
         type: 3}
@@ -105,19 +105,19 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 102c327a66a0792419e296a41f27c8d2, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
-  Spatialize: 0
+  Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 5
-  Pan2D: 1
+  Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
@@ -200,7 +200,7 @@ Animation:
   m_GameObject: {fileID: 1844280763369616972}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: 0dbf96ed0eeead04481980d18793960b, type: 2}
   m_Animations: []
   m_WrapMode: 0
   m_PlayAutomatically: 1
@@ -216,7 +216,7 @@ Animator:
   m_GameObject: {fileID: 1844280763369616972}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 99a4922abb7971143ba0e469bf898770, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
