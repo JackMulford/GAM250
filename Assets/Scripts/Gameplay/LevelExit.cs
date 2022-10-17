@@ -8,10 +8,13 @@ public class LevelExit : MonoBehaviour
 
     [SerializeField] float LevelLoadDelay = 2f;
     [SerializeField] float LevelExitSlowMoFactor = 0.2f;
+    [SerializeField] AudioClip exitSound;
+    [SerializeField][Range(0, 1)] float exitSoundVolume = 0.25f;
 
     void OnTriggerEnter2D(Collider2D Player)
     {
         StartCoroutine(LoadNextLevel());
+        AudioSource.PlayClipAtPoint(exitSound, Camera.main.transform.position, exitSoundVolume);
     }
 
     IEnumerator LoadNextLevel()
