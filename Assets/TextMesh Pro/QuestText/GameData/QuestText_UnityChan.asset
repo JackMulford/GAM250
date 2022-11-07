@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2405530876c7b1042a52cd6062992c3b, type: 3}
+  m_Name: QuestText_UnityChan
+  m_EditorClassIdentifier: 
+  fungusValues:
+  - variableName: msg_available
+    content: I need to find Kyle.  Will you help me?
+  - variableName: msg_accept
+    content: Sure I'll help |Of course!
+  - variableName: msg_decline
+    content: Sorry I'm too busy.|Not now.|Maybe Later.
+  - variableName: msg_acceptResp
+    content: You will?  That is reat!|Oh thankyou so much!
+  - variableName: msg_declineResp
+    content: Oh ok.|Maybe later then.
+  - variableName: msg_progress
+    content: Did you find Kyle?
+  - variableName: msg_notReady
+    content: Not yet.|I'm still looking.|I'm sure I'll find Kyle soon.
+  - variableName: msg_ready
+    content: Yes I've Found him.|Yes he's on his way.|He's safe and will be with
+      us shortly.
+  - variableName: msg_notReadyResp
+    content: Please find him!|Please bring him back safe!|
+  - variableName: msg_readyResp
+    content: Oh that is fantastic!|Oh thankyou thankyou I was so worried!
+  - variableName: msg_reward
+    content: These are the only things I have of value, but you are welcome to one
+      of them.||Please take one of these things as a token of my thanks.
