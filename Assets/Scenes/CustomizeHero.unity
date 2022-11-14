@@ -1641,7 +1641,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 25
+  itemId: 44
   blockName: LoadAlpha 1
   description: 
   eventHandler: {fileID: 0}
@@ -1687,7 +1687,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 25
+  itemId: 45
   blockName: Load Alpha 2
   description: 
   eventHandler: {fileID: 0}
@@ -1710,7 +1710,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: 4
+    stringVal: Level 1
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1605401292
@@ -1733,7 +1733,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 25
+  itemId: 46
   blockName: LoadBeta 1
   description: 
   eventHandler: {fileID: 0}
