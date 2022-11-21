@@ -861,9 +861,9 @@ RectTransform:
   m_Father: {fileID: 1767516698}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.35310414, y: 0.5}
-  m_AnchorMax: {x: 0.35310414, y: 0.5}
-  m_AnchoredPosition: {x: -334, y: -56}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 344, y: -56}
   m_SizeDelta: {x: 2317.1, y: 1470.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1451977670
@@ -980,7 +980,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 480.19977
     y: -3.7311935
-    width: 113
+    width: 114.77272
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1034,7 +1034,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 366.19977
     y: 47.268806
-    width: 82
+    width: 81.81818
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1090,7 +1090,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 267.74335
     y: 118.13385
-    width: 91
+    width: 90.90909
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1198,7 +1198,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 819.3647
     y: 98.35643
-    width: 86
+    width: 86.36363
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1227,7 +1227,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 682.36475
     y: 103.35643
-    width: 92
+    width: 92.04545
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1360,7 +1360,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 643.19977
     y: 37.7688
-    width: 76
+    width: 76.13636
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1391,7 +1391,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 476.69977
     y: 116.7688
-    width: 85
+    width: 85.227264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1495,7 +1495,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: 4
+    stringVal: Level4
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1605401283
@@ -1514,7 +1514,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 824.19977
     y: 200.2688
-    width: 111
+    width: 110.227264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1618,7 +1618,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: 4
+    stringVal: Level1
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1605401288
@@ -1637,7 +1637,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 249.46832
     y: 202.93654
-    width: 119
+    width: 118.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1664,7 +1664,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: 4
+    stringVal: Level3
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1605401290
@@ -1683,7 +1683,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 681.4683
     y: 194.93654
-    width: 123
+    width: 122.727264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1710,7 +1710,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Level 1
+    stringVal: Level2
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1605401292
@@ -1729,7 +1729,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 473.46832
     y: 197.93654
-    width: 113
+    width: 112.49999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2111,10 +2111,10 @@ RectTransform:
   m_Father: {fileID: 1767516698}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -897, y: 510}
-  m_SizeDelta: {x: -1395.9469, y: -970.3767}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 63, y: -30}
+  m_SizeDelta: {x: 524.0531, y: 109.62329}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1885051888
 MonoBehaviour:
@@ -2274,9 +2274,9 @@ RectTransform:
   m_Father: {fileID: 1767516698}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 117, y: 433}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 117, y: -107}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2018661537
