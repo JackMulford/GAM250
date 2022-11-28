@@ -18345,7 +18345,12 @@ PrefabInstance:
     - target: {fileID: 787970214560351950, guid: 6dda082f32bc8c14aa2572c53bd7ccd5,
         type: 3}
       propertyPath: currentAmmo
-      value: 40
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 787970214560351950, guid: 6dda082f32bc8c14aa2572c53bd7ccd5,
+        type: 3}
+      propertyPath: currentClip
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 787970214560351950, guid: 6dda082f32bc8c14aa2572c53bd7ccd5,
         type: 3}
